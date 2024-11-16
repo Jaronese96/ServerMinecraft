@@ -77,3 +77,23 @@
 [21:14:49] [Server thread/INFO]: Jaronese96 has made the advancement [Stone Age]
 [21:15:06] [Server thread/INFO]: Jaronese96 has made the advancement [Getting an Upgrade]
 [21:17:28] [Server thread/INFO]: Jaronese96 has made the advancement [Monster Hunter]
+[21:20:14] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username RanyPro17
+[21:20:14] [localSession-7-2/INFO]: [Geyser-Spigot] RanyPro17 (logged in as: RanyPro17) has connected to the Java server
+[21:20:14] [Server thread/INFO]: [floodgate] Floodgate player logged in as .RanyPro17 joined (UUID: 00000000-0000-0000-0009-01fe556eb9b1)
+[21:20:14] [Server thread/INFO]: .RanyPro17 joined the game
+[21:20:14] [Server thread/INFO]: .RanyPro17[/127.0.0.1:0] logged in with entity id 2244 at ([world]-16.5, 67.0, -64.5)
+[21:20:20] [Async Chat Thread - #0/INFO]: [Not Secure] <Jaronese96> zzz
+[21:20:27] [Async Chat Thread - #0/INFO]: [Not Secure] <Jaronese96> oe
+[21:20:30] [Async Chat Thread - #1/INFO]: [Not Secure] <Jaronese96> XDD
+[21:20:39] [localSession-7-2/INFO]: [Geyser-Spigot] RanyPro17 has disconnected from the Java server because of Bedrock client timed out
+[21:20:39] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .RanyPro17 disconnected
+[21:20:39] [Server thread/INFO]: .RanyPro17 lost connection: Disconnected
+[21:20:39] [Server thread/INFO]: .RanyPro17 left the game
+[21:24:07] [Server thread/INFO]: Made Jaronese96 a server operator
+[21:24:16] [Server thread/INFO]: Jaronese96 issued server command: /gamerule keepInventory true
+[21:24:16] [Server thread/INFO]: [Jaronese96: Gamerule keepInventory is now set to: true]
+[21:27:02] [Server thread/INFO]: Jaronese96 lost connection: Disconnected
+[21:27:02] [Server thread/INFO]: Jaronese96 left the game
+[21:27:15] [User Authenticator #1/INFO]: UUID of player Jaronese96 is d7d5dc13-ffa5-397d-8084-4b1611375307
+[21:27:17] [Server thread/INFO]: Jaronese96 joined the game
+[21:27:17] [Server thread/INFO]: Jaronese96[/[0:0:0:0:0:0:0:1%0]:42040] logged in with entity id 3106 at ([world]-6.883741692244412, 64.0, 29.303480798720962)
