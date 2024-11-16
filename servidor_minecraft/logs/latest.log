@@ -1,53 +1,79 @@
-[20:41:15] [ServerMain/ERROR]: Failed to load properties from file: server.properties
-java.nio.file.NoSuchFileException: server.properties
-	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
-	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
-	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
-	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261) ~[?:?]
-	at java.base/java.nio.file.Files.newByteChannel(Files.java:379) ~[?:?]
-	at java.base/java.nio.file.Files.newByteChannel(Files.java:431) ~[?:?]
-	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:420) ~[?:?]
-	at java.base/java.nio.file.Files.newInputStream(Files.java:159) ~[?:?]
-	at arc.b(SourceFile:62) ~[server-1.21.3.jar:?]
-	at aqz.a(SourceFile:141) ~[server-1.21.3.jar:?]
-	at ara.<init>(SourceFile:12) ~[server-1.21.3.jar:?]
-	at net.minecraft.server.Main.main(SourceFile:114) ~[server-1.21.3.jar:?]
-	at net.minecraft.bundler.Main.lambda$run$0(Main.java:54) ~[?:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[20:41:15] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[20:41:16] [ServerMain/INFO]: No existing world data, creating new world
-[20:41:17] [ServerMain/INFO]: Loaded 1337 recipes
-[20:41:17] [ServerMain/INFO]: Loaded 1448 advancements
-[20:41:17] [Server thread/INFO]: Starting minecraft server version 1.21.3
-[20:41:17] [Server thread/INFO]: Loading properties
-[20:41:17] [Server thread/INFO]: Default game type: SURVIVAL
-[20:41:17] [Server thread/INFO]: Generating keypair
-[20:41:17] [Server thread/INFO]: Starting Minecraft server on *:25565
-[20:41:17] [Server thread/INFO]: Using epoll channel type
-[20:41:17] [Server thread/INFO]: Preparing level "world"
-[20:41:25] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[20:41:25] [Worker-Main-2/INFO]: Preparing spawn area: 2%
-[20:41:26] [Worker-Main-2/INFO]: Preparing spawn area: 2%
-[20:41:26] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[20:41:26] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[20:41:27] [Worker-Main-1/INFO]: Preparing spawn area: 18%
-[20:41:27] [Worker-Main-1/INFO]: Preparing spawn area: 18%
-[20:41:28] [Worker-Main-3/INFO]: Preparing spawn area: 18%
-[20:41:28] [Worker-Main-3/INFO]: Preparing spawn area: 51%
-[20:41:29] [Worker-Main-2/INFO]: Preparing spawn area: 51%
-[20:41:29] [Worker-Main-3/INFO]: Preparing spawn area: 51%
-[20:41:30] [Worker-Main-2/INFO]: Preparing spawn area: 51%
-[20:41:30] [Server thread/INFO]: Time elapsed: 5048 ms
-[20:41:30] [Server thread/INFO]: Done (12.547s)! For help, type "help"
-[20:42:30] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[20:44:41] [Server thread/INFO]: Stopping the server
-[20:44:41] [Server thread/INFO]: Stopping server
-[20:44:41] [Server thread/INFO]: Saving players
-[20:44:41] [Server thread/INFO]: Saving worlds
-[20:44:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[20:44:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[20:44:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[20:44:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[20:44:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[20:44:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[20:44:42] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[21:08:06] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.4+7-LTS; Microsoft Microsoft-9889606) on Linux 6.5.0-1025-azure (amd64)
+[21:08:06] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.3-29-master@be886cf (2024-11-15T09:07:14Z) for Minecraft 1.21.3
+[21:08:07] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[21:08:07] [ServerMain/INFO]: [PluginInitializerManager] Initialized 3 plugins
+[21:08:07] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (3):
+ - Geyser-Spigot (2.5.0-SNAPSHOT), ViaVersion (5.1.1), floodgate (2.2.3-SNAPSHOT (b114-83fbd6e))
+[21:08:11] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[21:08:13] [ServerMain/INFO]: Loaded 1337 recipes
+[21:08:13] [ServerMain/INFO]: Loaded 1448 advancements
+[21:08:13] [Server thread/INFO]: Starting minecraft server version 1.21.3
+[21:08:13] [Server thread/INFO]: Loading properties
+[21:08:13] [Server thread/INFO]: This server is running Paper version 1.21.3-29-master@be886cf (2024-11-15T09:07:14Z) (Implementing API version 1.21.3-R0.1-SNAPSHOT)
+[21:08:13] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[21:08:13] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[21:08:13] [Server thread/INFO]: Using 4 threads for Netty based IO
+[21:08:14] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[21:08:14] [Server thread/INFO]: [ca.spottedleaf.moonrise.patches.chunk_system.scheduling.ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[21:08:14] [Server thread/INFO]: Default game type: SURVIVAL
+[21:08:14] [Server thread/INFO]: Generating keypair
+[21:08:14] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:08:15] [Server thread/INFO]: Using epoll channel type
+[21:08:15] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[21:08:15] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[21:08:16] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
+[21:08:17] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[21:08:17] [Server thread/INFO]: [floodgate] Took 961ms to boot Floodgate
+[21:08:17] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.1.1
+[21:08:17] [Server thread/INFO]: [ViaVersion] ViaVersion 5.1.1 is now loaded. Registering protocol transformers and injecting...
+[21:08:17] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[21:08:17] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[21:08:18] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.5.0-SNAPSHOT
+[21:08:18] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[21:08:18] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[21:08:18] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[21:08:18] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[21:08:18] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[21:08:18] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[21:08:18] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[21:08:18] [Server thread/INFO]: Preparing level "world"
+[21:08:19] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:08:19] [Server thread/INFO]: Preparing spawn area: 0%
+[21:08:19] [Paper Common Worker #0/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[21:08:19] [Paper Common Worker #0/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 309.8ms
+[21:08:19] [Server thread/INFO]: Preparing spawn area: 2%
+[21:08:20] [Server thread/INFO]: Preparing spawn area: 6%
+[21:08:20] [Server thread/INFO]: Time elapsed: 1212 ms
+[21:08:20] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[21:08:20] [Server thread/INFO]: Preparing spawn area: 0%
+[21:08:20] [Server thread/INFO]: Time elapsed: 261 ms
+[21:08:20] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[21:08:20] [Server thread/INFO]: Preparing spawn area: 0%
+[21:08:20] [Server thread/INFO]: Time elapsed: 126 ms
+[21:08:20] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
+[21:08:21] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.1.1
+[21:08:21] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.2-1.21.3 (768)
+[21:08:21] [Server thread/WARN]: [ViaVersion] ViaVersion does not have any compatible versions for this server version!
+[21:08:21] [Server thread/WARN]: [ViaVersion] Please remember that ViaVersion only adds support for versions newer than the server version.
+[21:08:21] [Server thread/WARN]: [ViaVersion] If you need support for older versions you may need to use one or more ViaVersion addons too.
+[21:08:21] [Server thread/WARN]: [ViaVersion] In that case please read the ViaVersion resource page carefully or use https://viaversion.com/setup
+[21:08:21] [Server thread/WARN]: [ViaVersion] and if you're still unsure, feel free to join our Discord-Server for further assistance.
+[21:08:21] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.5.0-SNAPSHOT
+[21:08:21] [Server thread/INFO]: [spark] Starting background profiler...
+[21:08:21] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[21:08:21] [Server thread/INFO]: [Geyser-Spigot] 
+[21:08:21] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.5.0-b715 (git-master-abf6860)
+[21:08:21] [Server thread/INFO]: [Geyser-Spigot] 
+[21:08:21] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[21:08:26] [epollEventLoopGroup-3-2/INFO]: [Geyser-Spigot] Started Geyser on UDP port 3702
+[21:08:26] [Server thread/INFO]: [Geyser-Spigot] Done (4.516s)! Run /geyser help for help!
+[21:08:26] [Server thread/INFO]: Done preparing level "world" (7.803s)
+[21:08:26] [Server thread/INFO]: Running delayed init tasks
+[21:08:26] [Server thread/INFO]: Done (20.434s)! For help, type "help"
+[21:08:26] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[21:09:18] [User Authenticator #0/INFO]: UUID of player Jaronese96 is d7d5dc13-ffa5-397d-8084-4b1611375307
+[21:09:19] [Server thread/INFO]: Jaronese96 joined the game
+[21:09:19] [Server thread/INFO]: Jaronese96[/[0:0:0:0:0:0:0:1%0]:49412] logged in with entity id 25 at ([world]-25.5, 65.0, -71.5)
+[21:14:49] [Server thread/INFO]: Jaronese96 has made the advancement [Stone Age]
+[21:15:06] [Server thread/INFO]: Jaronese96 has made the advancement [Getting an Upgrade]
+[21:17:28] [Server thread/INFO]: Jaronese96 has made the advancement [Monster Hunter]
