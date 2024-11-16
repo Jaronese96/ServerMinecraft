@@ -1,0 +1,53 @@
+[20:41:15] [ServerMain/ERROR]: Failed to load properties from file: server.properties
+java.nio.file.NoSuchFileException: server.properties
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261) ~[?:?]
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:379) ~[?:?]
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:431) ~[?:?]
+	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:420) ~[?:?]
+	at java.base/java.nio.file.Files.newInputStream(Files.java:159) ~[?:?]
+	at arc.b(SourceFile:62) ~[server-1.21.3.jar:?]
+	at aqz.a(SourceFile:141) ~[server-1.21.3.jar:?]
+	at ara.<init>(SourceFile:12) ~[server-1.21.3.jar:?]
+	at net.minecraft.server.Main.main(SourceFile:114) ~[server-1.21.3.jar:?]
+	at net.minecraft.bundler.Main.lambda$run$0(Main.java:54) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[20:41:15] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[20:41:16] [ServerMain/INFO]: No existing world data, creating new world
+[20:41:17] [ServerMain/INFO]: Loaded 1337 recipes
+[20:41:17] [ServerMain/INFO]: Loaded 1448 advancements
+[20:41:17] [Server thread/INFO]: Starting minecraft server version 1.21.3
+[20:41:17] [Server thread/INFO]: Loading properties
+[20:41:17] [Server thread/INFO]: Default game type: SURVIVAL
+[20:41:17] [Server thread/INFO]: Generating keypair
+[20:41:17] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:41:17] [Server thread/INFO]: Using epoll channel type
+[20:41:17] [Server thread/INFO]: Preparing level "world"
+[20:41:25] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:41:25] [Worker-Main-2/INFO]: Preparing spawn area: 2%
+[20:41:26] [Worker-Main-2/INFO]: Preparing spawn area: 2%
+[20:41:26] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[20:41:26] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[20:41:27] [Worker-Main-1/INFO]: Preparing spawn area: 18%
+[20:41:27] [Worker-Main-1/INFO]: Preparing spawn area: 18%
+[20:41:28] [Worker-Main-3/INFO]: Preparing spawn area: 18%
+[20:41:28] [Worker-Main-3/INFO]: Preparing spawn area: 51%
+[20:41:29] [Worker-Main-2/INFO]: Preparing spawn area: 51%
+[20:41:29] [Worker-Main-3/INFO]: Preparing spawn area: 51%
+[20:41:30] [Worker-Main-2/INFO]: Preparing spawn area: 51%
+[20:41:30] [Server thread/INFO]: Time elapsed: 5048 ms
+[20:41:30] [Server thread/INFO]: Done (12.547s)! For help, type "help"
+[20:42:30] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[20:44:41] [Server thread/INFO]: Stopping the server
+[20:44:41] [Server thread/INFO]: Stopping server
+[20:44:41] [Server thread/INFO]: Saving players
+[20:44:41] [Server thread/INFO]: Saving worlds
+[20:44:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[20:44:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[20:44:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[20:44:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:44:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:44:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:44:42] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
