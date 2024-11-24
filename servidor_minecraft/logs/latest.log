@@ -164,3 +164,19 @@
 [03:17:43] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Jaronese96: Set own game mode to Survival Mode]
 [03:21:43] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Jaronese96 has made the advancement [Stone Age]
 [03:21:47] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Jaronese96 has made the advancement [Getting an Upgrade]
+[03:25:42] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Jaronese96 was slain by Zombie
+[03:25:52] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Jaronese96: Set own game mode to Survival Mode]
+[03:26:09] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Jaronese96 lost connection: Timed out
+[03:26:09] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Jaronese96 left the game
+[03:26:45] [Netty Epoll Server IO #6/INFO] [FML]: Client protocol version 2
+[03:26:45] [Netty Epoll Server IO #6/INFO] [FML]: Client attempting to join with 19 mods : minecraft@1.12.2,usefulbackpacks@1.5.4.85,dungeonsmod@@VERSION@,mowziesmobs@1.5.8,FML@8.0.99.99,llibrary@1.7.20,uteamcore@2.2.5.319,spartanweaponry@1.6.0,mahoutsukai@1.12.2-v1.19.55,jei@4.16.1.1013,forge@14.23.5.2859,sexmod@1.1.0,spartanshields@1.5.5,geckolib3@3.0.30,waystones@4.1.0,mcp@9.42,epicfight@1.12.2-2.2.8,journeymap@1.12.2-5.7.1p2,oreexcavation@1.4.150
+[03:26:45] [Netty Epoll Server IO #6/INFO] [journeymap]: CLIENT
+[03:26:47] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[03:26:47] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Jaronese96[/127.0.0.1:52656] logged in with entity id 12141 at (-64.5, 82.0, 248.5)
+[03:26:47] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Jaronese96 joined the game
+[03:26:55] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Jaronese96: Set own game mode to Creative Mode]
+[03:27:52] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Jaronese96: Set the time to 1000]
+[03:28:34] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Jaronese96 has made the advancement [Bakuretsu, Bakuretsu..]
+[03:31:01] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Jaronese96: Set own game mode to Survival Mode]
+[03:31:59] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Jaronese96: Set own game mode to Creative Mode]
+[03:32:18] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class com.trolmastercard.sexmod.em from class com.trolmastercard.sexmod.ex
