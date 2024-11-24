@@ -264,3 +264,7 @@ Caused by: java.lang.RuntimeException: Attempted to load class net/minecraft/cli
 [24Nov2024 23:15:09.030] [Netty Epoll Server IO #0/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: [/[0:0:0:0:0:0:0:1%0]:54628] Disconnecting VANILLA connection attempt: This server has mods that require Forge to be installed on the client. Contact your server admin for more details.
 [24Nov2024 23:19:48.285] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jaronese96 has made the advancement [Monster Hunter]
 [24Nov2024 23:25:00.809] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made Jaronese96 a server operator
+[24Nov2024 23:31:57.192] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Jaronese96: Gamerule keepInventory is now set to: true]
+[24Nov2024 23:33:07.782] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jaronese96 was slain by Spider
+[24Nov2024 23:34:55.235] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jaronese96 was blown up by Creeper
+[24Nov2024 23:36:22.883] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jaronese96 was blown up by Creeper
