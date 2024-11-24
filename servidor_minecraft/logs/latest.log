@@ -270,3 +270,4 @@ Caused by: java.lang.RuntimeException: Attempted to load class net/minecraft/cli
 [24Nov2024 23:36:22.883] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jaronese96 was blown up by Creeper
 [24Nov2024 23:39:07.433] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jaronese96 was shot by Skeleton
 [24Nov2024 23:45:17.455] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jaronese96 has reached the goal [Half a flight]
+[24Nov2024 23:50:34.688] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jaronese96 has made the advancement [Sweet Dreams]
