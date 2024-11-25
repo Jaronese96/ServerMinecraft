@@ -265,3 +265,19 @@ Caused by: java.lang.RuntimeException: Attempted to load class net/minecraft/cli
 [25Nov2024 01:58:18.203] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: famdabi has made the advancement [Monster Hunter]
 [25Nov2024 01:58:32.033] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: famdabi was slain by Zombie
 [25Nov2024 02:02:16.982] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: famdabi was slain by Drowned
+[25Nov2024 02:05:06.039] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: famdabi has made the advancement [Stone Age]
+[25Nov2024 02:05:46.186] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: famdabi has made the advancement [Getting an Upgrade]
+[25Nov2024 02:06:29.286] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: famdabi lost connection: Timed out
+[25Nov2024 02:06:29.287] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: famdabi left the game
+[25Nov2024 02:06:56.284] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[25Nov2024 02:06:56.330] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[25Nov2024 02:06:56.330] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[25Nov2024 02:06:56.330] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[25Nov2024 02:06:56.591] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[25Nov2024 02:06:56.858] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[25Nov2024 02:06:56.859] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[25Nov2024 02:06:56.874] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[25Nov2024 02:06:56.874] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[25Nov2024 02:06:56.874] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[25Nov2024 02:06:56.874] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[25Nov2024 02:06:56.893] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
